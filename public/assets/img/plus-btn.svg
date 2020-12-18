@@ -1,0 +1,19 @@
+<svg id="Group" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31.5" height="27" viewBox="0 0 31.5 27">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Mask" d="M5.906,12.656V7.594H.844a.844.844,0,0,1,0-1.687H5.906V.844a.844.844,0,0,1,1.688,0V5.906h5.063a.844.844,0,0,1,0,1.688H7.594v5.063a.844.844,0,0,1-1.687,0Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Oval" transform="translate(0 4.5)">
+    <circle id="Oval-2" data-name="Oval" cx="11.25" cy="11.25" r="11.25" fill="none"/>
+    <circle id="Oval-3" data-name="Oval" cx="11.25" cy="11.25" r="11.25" fill="#ccc"/>
+  </g>
+  <g id="Oval-4" data-name="Oval" transform="translate(9)">
+    <circle id="Oval-5" data-name="Oval" cx="11.25" cy="11.25" r="11.25" fill="none"/>
+    <circle id="Oval-6" data-name="Oval" cx="11.25" cy="11.25" r="11.25" fill="#fff"/>
+  </g>
+  <g id="Mask-2" data-name="Mask" transform="translate(13.5 4.5)">
+    <path id="Mask-3" data-name="Mask" d="M7.594,7.594v5.063a.844.844,0,0,1-1.687,0V7.594H.844a.844.844,0,0,1,0-1.687H5.906V.844a.844.844,0,0,1,1.688,0V5.906h5.063a.844.844,0,0,1,0,1.688Z" transform="translate(0)" fill="none"/>
+    <path id="Mask-4" data-name="Mask" d="M7.594,7.594v5.063a.844.844,0,0,1-1.687,0V7.594H.844a.844.844,0,0,1,0-1.687H5.906V.844a.844.844,0,0,1,1.688,0V5.906h5.063a.844.844,0,0,1,0,1.688Z" transform="translate(0)" fill="#ccc"/>
+  </g>
+</svg>

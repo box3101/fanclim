@@ -1,0 +1,223 @@
+// 슬라이드 버튼
+.swiper-button-next,
+.swiper-button-prev {
+  background: none;
+}
+
+.swiper-button-prev {
+  left: -3.75rem;
+}
+.swiper-button-next {
+  right: -4.0625rem;
+}
+
+%swiper-btn {
+  display: inline-block;
+  width: 1.1875rem;
+  height: 1.9375rem;
+}
+
+.swiper-btn-prev {
+  @extend %swiper-btn;
+  @include bg-url("img", "swiper-btn-left.png");
+  left: -4.0625rem;
+}
+
+.swiper-btn-next {
+  @extend %swiper-btn;
+  @include bg-url("img", "swiper-btn-right.png");
+  right: -4.0625rem;
+}
+
+// 그라데이션
+.cm-gra-txt {
+  @include flex {
+    align-items: center;
+  }
+
+  display: inline-block;
+  width: auto;
+  padding: 0 0.8125rem;
+  position: relative;
+  font-family: "Black Han Sans", sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 0.85;
+  letter-spacing: 0.125rem;
+  color: #000000;
+
+  img {
+    vertical-align: bottom;
+  }
+
+  @include make-after {
+    position: absolute;
+    bottom: -0.4375rem;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 1.875rem;
+    background-color: #ffed43;
+  }
+}
+.cm-gra-sm {
+  position: relative;
+  font-size: 1.25rem;
+  font-weight: 600;
+
+  @include make-after {
+    position: absolute;
+    bottom: -0.25rem;
+    left: -1.5%;
+    z-index: -1;
+    width: 104%;
+    margin: 0 auto;
+    height: 1rem;
+    background-color: #ffed43;
+  }
+}
+
+// cm-desc-box
+.cm-desc-box {
+  margin-top: 0.9375rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  &__img {
+    align-items: center;
+    justify-content: center;
+    width: 1.75rem;
+    height: 1.75rem;
+    margin-right: 0.5625rem;
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+  }
+
+  &__name {
+    font-size: 0.875rem;
+    font-weight: 300;
+    line-height: 1.93;
+    letter-spacing: 0.0437rem;
+    color: #000000;
+    margin-right: 0.3125rem;
+  }
+
+  .cm-sel {
+    font-size: 0.875rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.93;
+    letter-spacing: 0.0437rem;
+    text-align: center;
+    color: #000000;
+
+    .in-icon {
+      position: relative;
+      top: -0.125rem;
+      display: inline-block;
+      font-size: 0.625rem;
+      margin-right: 0.6875rem;
+    }
+  }
+}
+.cm-desc-txt {
+  @include ellipse(2, 1.3);
+
+  height: 2.875rem;
+  margin-top: 0.625rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 0.0563rem;
+  color: #000000;
+}
+.cm-desc-bot-box {
+  margin-top: 1.6875rem;
+
+  &__price {
+    font-size: 1.375rem;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: 0.0688rem;
+    color: #000000;
+  }
+  &__txt {
+    font-size: 0.875rem;
+    font-weight: 300;
+    line-height: 1.57;
+    letter-spacing: 0.0437rem;
+    color: #000000;
+  }
+  &__num {
+    position: relative;
+    margin-left: 0.6875rem;
+
+    .in-num {
+      position: absolute;
+      top: -0.75rem;
+      right: -0.65rem;
+      background: #ffed43;
+      padding: 0.125rem 0.25rem;
+      border-radius: 0.4375rem;
+      font-size: 0.6125rem;
+      font-weight: bold;
+      line-height: 1.46;
+      letter-spacing: 0.0144rem;
+      text-align: center;
+      color: #1d2129;
+    }
+  }
+}
+
+// btn
+.cm-badge {
+  display: inline-block;
+  padding: 0rem 0.4375rem;
+  border-radius: 1.5625rem;
+  background: #ff651c;
+  font-size: 0.75rem;
+  font-weight: 900;
+  line-height: 2.25;
+  letter-spacing: 0.0375rem;
+  text-align: center;
+  color: #ffffff;
+
+  &.is-blue {
+    background: #597ce8;
+  }
+}
+.cm-link-btn {
+  display: inline-block;
+  width: 14.0625rem;
+  height: 3.75rem;
+  line-height: 3.75rem;
+  border-radius: 2.8125rem !important;
+  background: #ffed43 !important;
+  color: #1d2129;
+  text-align: center;
+  font-size: 1.25rem;
+  letter-spacing: 0.1669rem;
+  font-weight: 500;
+}
+
+//title
+.cm-tilte-wrap {
+  .cm-txt {
+    margin-left: 2.75rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.63;
+    letter-spacing: 0.075rem;
+    color: #000000;
+
+    .bold {
+      font-weight: 600;
+    }
+  }
+}

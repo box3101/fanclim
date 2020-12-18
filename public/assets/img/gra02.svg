@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43.077" height="43.077" viewBox="0 0 43.077 43.077">
+  <g id="Rectangle" transform="translate(12.308 3.077)">
+    <g id="Mask">
+      <path id="Shape" d="M19.584,15.4A2.5,2.5,0,0,0,17.5,14.267h-5V2.521a2.5,2.5,0,0,0-4.8-.99L.2,19.15a2.532,2.532,0,0,0,.212,2.377A2.5,2.5,0,0,0,2.5,22.656h5V34.4a2.5,2.5,0,0,0,4.8.99l7.5-17.619A2.532,2.532,0,0,0,19.584,15.4Z"/>
+    </g>
+    <g id="Rectangle-2" data-name="Rectangle">
+      <rect id="Rectangle-3" data-name="Rectangle" width="43.077" height="43.077" transform="translate(-12.308 -3.077)" fill="none"/>
+      <rect id="Rectangle-4" data-name="Rectangle" width="43.077" height="43.077" transform="translate(-12.308 -3.077)"/>
+    </g>
+    <g id="Path">
+      <path id="Path-2" data-name="Path" d="M7.5,31.882V17.619H0L7.5,0V14.263H15Z" transform="translate(2.501 2.521)" fill="none"/>
+      <path id="Path-3" data-name="Path" d="M7.5,31.882V17.619H0L7.5,0V14.263H15Z" transform="translate(2.501 2.521)" fill="#ffed43"/>
+    </g>
+  </g>
+</svg>

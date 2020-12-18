@@ -1,0 +1,80 @@
+/* =================== form =================== */
+.input {
+  @include input-reset;
+
+  resize: none;
+
+  // input은 무조건 input-wrap안에 사용
+  &-wrap {
+    width: 100%;
+  }
+
+  // input text: class="input input-style"
+  &-style {
+    @include input-style();
+
+    // input-style--round
+    &--round {
+      @include input-style($bd-rd: 25px);
+    }
+
+    // input-style--underbar
+    &--underbar {
+      @include input-style($bd-wi: 0, $bd-rd: 0) {
+        border-bottom: 1px;
+      }
+    }
+  }
+
+  // textarea: class="input input-style input-tarea"
+  &-tarea {
+    height: 200px;
+  }
+
+  // select: class="input input-style input-selec"
+  &-selec {
+    cursor: pointer;
+  }
+}
+
+// star score
+.rate1 {
+  &:before {
+    content: "1.0";
+  }
+  &:after {
+    content: url("../../images/icon/icon_star1.svg");
+  }
+}
+.rate2 {
+  &:before {
+    content: "2.0";
+  }
+  &:after {
+    content: url("../../images/icon/icon_star2.svg");
+  }
+}
+.rate3 {
+  &:before {
+    content: "3.0";
+  }
+  &:after {
+    content: url("../../images/icon/icon_star3.svg");
+  }
+}
+.rate4 {
+  &:before {
+    content: "4.0";
+  }
+  &:after {
+    content: url("../../images/icon/icon_star4.svg");
+  }
+}
+.rate5 {
+  &:before {
+    content: "5.0";
+  }
+  &:after {
+    content: url("../../images/icon/icon_star5.svg");
+  }
+}

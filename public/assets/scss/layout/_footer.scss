@@ -1,0 +1,28 @@
+/* =================== footer =================== */
+.footer {
+  padding: 2.25rem 0;
+  background-color: #f6f6f6;
+  text-align: center;
+
+  .footer-info {
+    &__txt {
+      font-size: 0.75rem;
+      line-height: 1.67;
+      text-align: center;
+      color: #979797;
+    }
+    &__util {
+      a {
+        margin-top: 1.1875rem;
+        margin-bottom: 0.4375rem;
+        margin-right: 0.3125rem;
+        display: inline-block;
+        font-size: 0.75rem;
+        line-height: 1.5;
+        font-weight: 500;
+        text-align: center;
+        color: #1d2129;
+      }
+    }
+  }
+}

@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="ko" style="overflow-x: hidden;">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>FANCIM</title>
+
+  <meta name="title" content="FANCIM" />
+  <meta name="author" content="web company" />
+  <meta name="description" content="web description" />
+  <meta name="keywords" content="keywords related web" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="해당 웹 URL" />
+  <meta property="og:title" content="타이틀" />
+  <meta property="og:description" content="상세설명 한문장" />
+  <!-- ! TODO: meta thumbnail 설정 -->
+  <!-- <meta property="og:image" content="/assets/images/favicon/*.png"> -->
+  <!-- END Open Graph -->
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicon/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="57x57" href="../assets/images/favicon/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="../assets/images/favicon/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="../assets/images/favicon/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="../assets/images/favicon/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="36x36" href="../assets/images/favicon/android-chrome-36x36.png" />
+  <link rel="apple-touch-icon" sizes="48x48" href="../assets/images/favicon/android-chrome-48x48.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="../assets/images/favicon/android-chrome-72x72.png" />
+  <link rel="apple-touch-icon" sizes="96x96" href="../assets/images/favicon/android-chrome-96x96.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="../assets/images/favicon/android-chrome-144x144.png" />
+  <link rel="apple-touch-icon" sizes="192x192" href="../assets/images/favicon/android-chrome-192x192.png" />
+  <link rel="apple-touch-icon" sizes="256x256" href="../assets/images/favicon/android-chrome-256x256.png" />
+  <link rel="apple-touch-icon" sizes="512x512" href="../assets/images/favicon/android-chrome-512x512.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="../assets/images/favicon/site.webmanifest" />
+
+  <!-- 스와이퍼 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+
+
+  <link rel="mask-icon" href="../assets/images/favicon/safari-pinned-tab.svg" color="#1D1D1D" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="theme-color" content="#ffffff" />
+  <!-- 
+        https://realfavicongenerator.net/
+        favicon package 다운로드, 루트 수정
+        assets체크해서 뽑기
+    -->
+  <!-- END favicon -->
+
+  <!-- css link -->
+  <link rel="stylesheet" href="../assets/css/vendor/normalize.css" />
+  <link rel="stylesheet" href="../assets/css/custom/ui.css" />
+</head>
+
+<body ontouchstart style="overflow-x: hidden;">
+  <div id="app">
+    <div class="wrap">
+      <!-- header -->
+      <header class="header">
+        <div class="inner">
+          <!-- 로고 -->
+          <h1 class="logo">
+            <a href="../pages/index.html">
+              <img src="../assets/img/logo.png" alt="">
+            </a>
+          </h1>
+
+          <!-- gnb -->
+          <ul class="gnb">
+            <li class="gnb__list">
+              <a href="#" class="gnb__item">랜선미션</a>
+            </li>
+            <li class="gnb__list">
+              <a href="#" class="gnb__item">현실도네</a>
+            </li>
+            <li class="gnb__list">
+              <a href="#" class="gnb__item">셀럽</a>
+            </li>
+          </ul>
+
+          <!-- search -->
+          <div class="header__util-pos">
+            <button type="button" class="btn search">
+              <img src="../assets/img/search-btn.png" alt="">
+            </button>
+          </div>
+
+          <!-- 모바일 -->
+          <div class="plus-btn is-mo-show">
+            <button type="button" class="btn search">
+              <img src="../assets/img/plus-btn.svg" alt="">
+            </button>
+          </div>
+
+          <!-- 알림버튼 -->
+          <div class="noti-btn is-mo-show">
+            <button type="button" class="btn search">
+              <img src="../assets/img/noti-btn.png" alt="">
+            </button>
+          </div>
+
+          <!-- util -->
+          <ul class="util">
+            <li class="util__list">
+              <a href="#" class="util__item">고객센터</a>
+            </li>
+            <li class="util__list">
+              <a href="#" class="util__item">로그인</a>
+            </li>
+            <li class="util__list">
+              <a href="#" class="util__item is-active">회원가입</a>
+            </li>
+          </ul>
+
+
+        </div>
+      </header>
+      <!-- header eee -->
+
+      <!-- page FIXME: class명 변경 -->
+      <div id="page" class="main">
+        <!-- visual -->
+        <figure class="visual">
+          <div class="inner">
+            <div class="visual__txt-wrap">
+              <div class="visual__txt">
+                <span class="is-bold is-hans">7,437 </span>
+                명의 셀럽이 <br>
+                팬과 소통하고 있습니다
+              </div>
+              <div class="visual__btn">
+                <button type="button" class="btn cm-link-btn">지금 소통하기</button>
+              </div>
+            </div>
+            <div class="visual__img is-mo-hide">
+              <img src="../assets/img/bg-item01.png" alt="">
+            </div>
+            <div class="visual__img is-mo-show">
+              <img src="../assets/img/mo-bg-item01.png" alt="">
+            </div>
+          </div>
+        </figure>
+
+        <!-- tab-menu -->
+        <section class="tab-menu">
+          <div class="tab-menu__list-wrap swiper-container tab-menu-slide">
+            <ul class="tab-menu__list swiper-wrapper w-auto">
+              <li class="tab-menu__item swiper-slide">
+                <button type="button" class="btn is-active">펫/동물</button>
+              </li>
+              <li class="tab-menu__item swiper-slide">
+                <button type="button" class="btn">기타</button>
+              </li>
+              <li class="tab-menu__item swiper-slide">
+                <button type="button" class="btn">게임</button>
+              </li>
+              <li class="tab-menu__item swiper-slide">
+                <button type="button" class="btn">라디오/ASMR</button>
+              </li>
+              <li class="tab-menu__item swiper-slide">
+                <button type="button" class="btn">음악/미술/예술</button>
+
+              </li>
+              <li class="tab-menu__item swiper-slide">
+                <button type="button" class="btn">모델/뷰티</button>
+              </li>
+              <li class="tab-menu__item swiper-slide">
+                <button type="button" class="btn">푸드</button>
+              </li>
+              <li class="tab-menu__item swiper-slide">
+                <button type="button" class="btn">교육/작가</button>
+              </li>
+              <li class="tab-menu__item swiper-slide">
+                <button type="button" class="btn">스포츠/건강</button>
+              </li>
+              <li class="tab-menu__item swiper-slide">
+                <button type="button" class="btn">시사/이슈</button>
+              </li>
+              <li class="tab-menu__item swiper-slide">
+                <button type="button" class="btn">IT/테크</button>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <script>
+          new Swiper('.tab-menu-slide', {
+            slidesPerView: 'auto',
+            spaceBetween: 0,
+            breakpoints: {
+              900: {
+                slidesPerView: '9',
+              },
+              600: {
+                slidesPerView: '6',
+                spaceBetween: 10,
+              },
+            }
+          });
+        </script>
+
+        <!-- list item -->
+        <div class="inner list-item-wrap">
+          <section class="list-item swiper-container list-item">
+            <div class="list-item__wrap swiper-wrapper">
+              <div class="list-item__item swiper-slide">
+                <div class="list-item__profile">
+                  <img src="../assets/img/Rectangle.png" alt="">
+                </div>
+                <div class="list-item__tit">이다은</div>
+                <div class="list-item__txt">일상/토크/여행</div>
+                <div class="list-item__icon-wrap">
+                  <span class="list-item__icon-wrap-icon">
+                    <img src="../assets/img/youtube.png" alt="">
+                  </span>
+                  <span class="list-item__icon-wrap-icon">
+                    <img src="../assets/img/chat.png" alt="">
+                  </span>
+                  <span class="list-item__icon-wrap-icon">
+                    <img src="../assets/img/mugic.png" alt="">
+                  </span>
+                </div>
+                <div class="list-item__desc">
+                  안녕하세요 종합게임 스트리머 팡민입니다.게임도 하고 얘기도 하고 노래도안녕하세요 종합게임 스트리머 팡민입니다.게임도 하고 얘기도 하고 노래도
+                </div>
+              </div>
+              <div class="list-item__item swiper-slide">
+                <div class="list-item__profile">
+                  <img src="../assets/img/Rectangle.png" alt="">
+                </div>
+                <div class="list-item__tit">이다은</div>
+                <div class="list-item__txt">일상/토크/여행</div>
+                <div class="list-item__icon-wrap">
+                  <span class="list-item__icon-wrap-icon">
+                    <img src="../assets/img/youtube.png" alt="">
+                  </span>
+                  <span class="list-item__icon-wrap-icon">
+                    <img src="../assets/img/chat.png" alt="">
+                  </span>
+                  <span class="list-item__icon-wrap-icon">
+                    <img src="../assets/img/mugic.png" alt="">
+                  </span>
+                </div>
+                <div class="list-item__desc">
+                  안녕하세요 종합게임 스트리머 팡민입니다.게임도 하고 얘기도 하고 노래도
+                </div>
+              </div>
+              <div class="list-item__item swiper-slide">
+                <div class="list-item__profile">
+                  <img src="../assets/img/Rectangle.png" alt="">
+                </div>
+                <div class="list-item__tit">이다은</div>
+                <div class="list-item__txt">일상/토크/여행</div>
+                <div class="list-item__icon-wrap">
+                  <span class="list-item__icon-wrap-icon">
+                    <img src="../assets/img/youtube.png" alt="">
+                  </span>
+                  <span class="list-item__icon-wrap-icon">
+                    <img src="../assets/img/chat.png" alt="">
+                  </span>
+                  <span class="list-item__icon-wrap-icon">
+                    <img src="../assets/img/mugic.png" alt="">
+                  </span>
+                </div>
+                <div class="list-item__desc">
+                  안녕하세요 종합게임 스트리머 팡민입니다.게임도 하고 얘기도 하고 노래도
+                </div>
+              </div>
+              <div class="list-item__item swiper-slide">
+                <div class="list-item__profile">
+                  <img src="../assets/img/Rectangle.png" alt="">
+                </div>
+                <div class="list-item__tit">이다은</div>
+                <div class="list-item__txt">일상/토크/여행</div>
+                <div class="list-item__icon-wrap">
+                  <span class="list-item__icon-wrap-icon">
+                    <img src="../assets/img/youtube.png" alt="">
+                  </span>
+                  <span class="list-item__icon-wrap-icon">
+                    <img src="../assets/img/chat.png" alt="">
+                  </span>
+                  <span class="list-item__icon-wrap-icon">
+                    <img src="../assets/img/mugic.png" alt="">
+                  </span>
+                </div>
+                <div class="list-item__desc">
+                  안녕하세요 종합게임 스트리머 팡민입니다.게임도 하고 얘기도 하고 노래도
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- 네비게이션 -->
+          <div class="swiper-button-next">
+            <button type="button" class="btn swiper-btn-next"></button>
+          </div>
+          <!-- 다음 버튼 (오른쪽에 있는 버튼) -->
+          <div class="swiper-button-prev">
+            <button type="button" class="btn swiper-btn-prev"></button>
+          </div><!-- 이전 버튼 -->
+        </div>
+
+        <script>
+          new Swiper('.list-item', {
+            loop: true, // 슬라이드 반복
+            slidesPerView: 4,
+            spaceBetween: 12.5,
+            navigation: { // 네비게이션
+              nextEl: '.swiper-button-next', // 다음 버튼 클래스명
+              prevEl: '.swiper-button-prev', // 이번 버튼 클래스명
+            },
+            breakpoints: {
+              1300: {
+                slidesPerView: 3,
+              },
+              600: {
+                slidesPerView: 2.3,
+                spaceBetween: 6,
+              }
+            }
+          });
+        </script>
+
+        <!-- present -->
+        <div class="present">
+          <div class="inner">
+            <div class="present-left">
+              <div class="present-left__img">
+                <img src="../assets/img/present-thumb-img.png" alt="">
+              </div>
+              <div class="present-left__txt">
+                <div class="cm-gra-txt">
+                  현실선물<img src="../assets/img/gra01.svg" alt="">
+                </div>
+                <p class="in-title">개인정보 노출 없이
+                </p>
+                <p class="in-txt">
+                  안전하게 선물을 <br class="is-mo-hide">
+                  주고 받아보세요!
+                </p>
+              </div>
+            </div>
+            <div class="present-right">
+              <div class="present-right__slide-wrap swiper-container present-slide">
+                <div class="present-right__slide-list swiper-wrapper">
+                  <div class="present-right__slide-item swiper-slide">
+                    <div class="in-img">
+                      <img src="../assets/img/present-item01.png" alt="">
+                    </div>
+                    <div class="cm-desc-box">
+                      <span class="cm-desc-box__img">
+                        <img src="../assets/img/people-defult.svg" alt="">
+                      </span>
+                      <span class="cm-desc-box__name">
+                        하니니
+                      </span>
+                      <span class="cm-badge">
+                        셀럽후기
+                      </span>
+                    </div>
+                    <div class="cm-desc-txt">
+                      저 머플러 선물 처음 받아봐 <br>
+                      요..ㅠㅠ (감동) 저 머플러 선물 처음 받아봐
+                    </div>
+                  </div>
+                  <div class="present-right__slide-item swiper-slide">
+                    <div class="in-img">
+                      <img src="../assets/img/present-item02.png" alt="">
+                    </div>
+                    <div class="cm-desc-box">
+                      <span class="cm-desc-box__img">
+                        <img src="../assets/img/people-defult2.svg" alt="">
+                      </span>
+                      <span class="cm-desc-box__name">
+                        편곡자
+                      </span>
+                      <span class="cm-badge is-blue">
+                        팬후기
+                      </span>
+                    </div>
+                    <div class="cm-desc-txt">
+                      스텔루나님 저에게 선물을 <br>
+                      보내주셨습니당 감사합니다
+                    </div>
+                  </div>
+                  <div class="present-right__slide-item swiper-slide">
+                    <div class="in-img">
+                      <img src="../assets/img/present-item03.png" alt="">
+                    </div>
+                    <div class="cm-desc-box">
+                      <span class="cm-desc-box__img">
+                        <img src="../assets/img/people-defult3.svg" alt="">
+                      </span>
+                      <span class="cm-desc-box__name">
+                        HaruNuna
+                      </span>
+                      <span class="cm-badge">
+                        셀럽후기
+                      </span>
+                    </div>
+                    <div class="cm-desc-txt">
+                      생일선물 챙겨주셔서 너무 <br>
+                      감사해요
+                    </div>
+                  </div>
+                  <div class="present-right__slide-item swiper-slide">
+                    <div class="in-img">
+                      <img src="../assets/img/present-item04.png" alt="">
+                    </div>
+                    <div class="cm-desc-box">
+                      <span class="cm-desc-box__img">
+                        <img src="../assets/img/people-defult4.svg" alt="">
+                      </span>
+                      <span class="cm-desc-box__name">
+                        ㅈ미벽ㄷ
+                      </span>
+                      <span class="cm-badge is-blue">
+                        팬후기
+                      </span>
+                    </div>
+                    <div class="cm-desc-txt">
+                      생각지도 않았는데 <br>
+                      너무나 감사합니다…
+                    </div>
+                  </div>
+                  <div class="present-right__slide-item swiper-slide">
+                    <div class="in-img">
+                      <img src="../assets/img/present-item05.png" alt="">
+                    </div>
+                    <div class="cm-desc-box">
+                      <span class="cm-desc-box__img">
+                        <img src="../assets/img/people-defult4.svg" alt="">
+                      </span>
+                      <span class="cm-desc-box__name">
+                        임티타
+                      </span>
+                      <span class="cm-badge is-blue">
+                        팬후기
+                      </span>
+                    </div>
+                    <div class="cm-desc-txt">
+                      팬을 위해 이렇게 신경 쓰는 <br>
+                      마음 잘 간직 하겠습니다
+                    </div>
+                  </div>
+                  <div class="present-right__slide-item swiper-slide">
+                    <div class="in-img">
+                      <img src="../assets/img/present-item06.png" alt="">
+                    </div>
+                    <div class="cm-desc-box">
+                      <span class="cm-desc-box__img">
+                        <img src="../assets/img/people-defult5.svg" alt="">
+                      </span>
+                      <span class="cm-desc-box__name">
+                        ASMR흑갱
+                      </span>
+                      <span class="cm-badge">
+                        셀럽후기
+                      </span>
+                    </div>
+                    <div class="cm-desc-txt">
+                      조립 과정 사진을 못찍었네요
+                    </div>
+                  </div>
+                  <div class="present-right__slide-item swiper-slide">
+                    <div class="in-img">
+                      <img src="../assets/img/present-item07.png" alt="">
+                    </div>
+                    <div class="cm-desc-box">
+                      <span class="cm-desc-box__img">
+                        <img src="../assets/img/people-defult6.svg" alt="">
+                      </span>
+                      <span class="cm-desc-box__name">
+                        설화문
+                      </span>
+                      <span class="cm-badge">
+                        셀럽후기
+                      </span>
+                    </div>
+                    <div class="cm-desc-txt">
+                      첫 팬심으로 너무나도 <br>
+                      좋은 선물을 받았어요!
+                    </div>
+                  </div>
+                  <div class="present-right__slide-item swiper-slide">
+                    <div class="in-img">
+                      <img src="../assets/img/present-item08.png" alt="">
+                    </div>
+                    <div class="cm-desc-box">
+                      <span class="cm-desc-box__img">
+                        <img src="../assets/img/people-defult7.svg" alt="">
+                      </span>
+                      <span class="cm-desc-box__name">
+                        잇챠
+                      </span>
+                      <span class="cm-badge">
+                        셀럽후기
+                      </span>
+                    </div>
+                    <div class="cm-desc-txt">
+                      받게 된다면 이렇게 후기 <br>
+                      써보는 것이 소원이었어요
+                    </div>
+                  </div>
+                  <div class="present-right__slide-item swiper-slide">
+                    <div class="in-img">
+                      <img src="../assets/img/present-item09.png" alt="">
+                    </div>
+                    <div class="cm-desc-box">
+                      <span class="cm-desc-box__img">
+                        <img src="../assets/img/people-defult4.svg" alt="">
+                      </span>
+                      <span class="cm-desc-box__name">
+                        야옹토끼
+                      </span>
+                      <span class="cm-badge is-blue">
+                        팬후기
+                      </span>
+                    </div>
+                    <div class="cm-desc-txt">
+                      방송1주년 축하하고 <br>
+                      선물 너무 감사합니다 ^^
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 네비게이션 -->
+              <div class="swiper-button-next">
+                <button type="button" class="btn swiper-btn-next swiper-pre-button-next"></button>
+              </div>
+              <!-- 다음 버튼 (오른쪽에 있는 버튼) -->
+              <div class="swiper-button-prev">
+                <button type="button" class="btn swiper-btn-prev swiper-pre-button-prev"></button>
+              </div><!-- 이전 버튼 -->
+            </div>
+
+          </div>
+        </div>
+
+        <script>
+          new Swiper('.present-slide', {
+            slidesPerView: 3,
+            spaceBetween: 28,
+            navigation: { // 네비게이션
+              nextEl: '.swiper-pre-button-next', // 다음 버튼 클래스명
+              prevEl: '.swiper-pre-button-prev', // 이번 버튼 클래스명
+            },
+            breakpoints: {
+              900: {
+                slidesPerView: 2,
+              },
+              600: {
+                slidesPerView: 2.3,
+                spaceBetween: 12,
+              }
+            }
+          });
+        </script>
+
+        <!-- mission -->
+        <div class="mission">
+          <div class="inner">
+            <!-- 타이틀 -->
+            <div class="cm-tilte-wrap flex-between">
+              <div class="cm-gra-txt">
+                랜선미션<img src="../assets/img/gra02.svg" alt="">
+              </div>
+              <span class="cm-txt">
+                팬이 셀럽에게 <br class="is-mo-show">
+                <span class="bold">다양한 미션</span>을 요청할 수 있습니다
+              </span>
+            </div>
+
+            <!-- 슬라이드 -->
+            <div class="type02-slide-wrap mission-slide swiper-container">
+              <div class="type02-slide-list swiper-wrapper">
+                <div class="type02-slide-item swiper-slide">
+                  <div class="type02-slide-item__img">
+                    <img src="../assets/img/mission-item01.png" alt="">
+                  </div>
+                  <div class="cm-desc-box">
+                    <span class="cm-desc-box__img">
+                      <img src="../assets/img/people-defult10.svg" alt="">
+                    </span>
+                    <span class="cm-desc-box__name">
+                      아리멍뭉
+                    </span>
+                    <span class="cm-sel">
+                      <span class="in-icon">◀ </span>몬초
+                    </span>
+                  </div>
+                  <div class="cm-desc-txt">
+                    민트치킨 먹어주세요
+                  </div>
+                  <div class="cm-desc-bot-box">
+                    <span class="cm-desc-bot-box__price">220</span>
+                    <span class="cm-desc-bot-box__icon">
+                      <img src="../assets/img/desc-icn.svg" alt="">
+                    </span>
+                    <span class="cm-desc-bot-box__txt">장전 중</span>
+                    <span class="cm-desc-bot-box__num">
+                      <span class="in-img">
+                        <img src="../assets/img/desc-bot-num.svg" alt="">
+                      </span>
+                      <span class="in-num">
+                        6
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <div class="type02-slide-item swiper-slide">
+                  <div class="type02-slide-item__img">
+                    <img src="../assets/img/mission-item02.png" alt="">
+                  </div>
+                  <div class="cm-desc-box">
+                    <span class="cm-desc-box__img">
+                      <img src="../assets/img/people-defult11.svg" alt="">
+                    </span>
+                    <span class="cm-desc-box__name">
+                      호요시
+                    </span>
+                    <span class="cm-sel">
+                      <span class="in-icon">◀ </span>호요시
+                    </span>
+                  </div>
+                  <div class="cm-desc-txt">
+                    호요시 카드 굿즈 제작
+                  </div>
+                  <div class="cm-desc-bot-box">
+                    <span class="cm-desc-bot-box__price">2,171</span>
+                    <span class="cm-desc-bot-box__icon">
+                      <img src="../assets/img/desc-icn.svg" alt="">
+                    </span>
+                    <span class="cm-desc-bot-box__txt">장전 중</span>
+                    <span class="cm-desc-bot-box__num">
+                      <span class="in-img">
+                        <img src="../assets/img/desc-bot-num.svg" alt="">
+                      </span>
+                      <span class="in-num">
+                        20
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <div class="type02-slide-item swiper-slide">
+                  <div class="type02-slide-item__img">
+                    <img src="../assets/img/mission-item03.png" alt="">
+                  </div>
+                  <div class="cm-desc-box">
+                    <span class="cm-desc-box__img">
+                      <img src="../assets/img/people-defult12.svg" alt="">
+                    </span>
+                    <span class="cm-desc-box__name">
+                      악어
+                    </span>
+                    <span class="cm-sel">
+                      <span class="in-icon">◀ </span>흥행기원
+                    </span>
+                  </div>
+                  <div class="cm-desc-txt">
+                    악어형!! 보고싶은 콘텐츠 설문조사 <br>
+                    한번 하자!
+                  </div>
+                  <div class="cm-desc-bot-box">
+                    <span class="cm-desc-bot-box__price">2,361</span>
+                    <span class="cm-desc-bot-box__icon">
+                      <img src="../assets/img/desc-icn.svg" alt="">
+                    </span>
+                    <span class="cm-desc-bot-box__txt">장전 중</span>
+                    <span class="cm-desc-bot-box__num">
+                      <span class="in-img">
+                        <img src="../assets/img/desc-bot-num.svg" alt="">
+                      </span>
+                      <span class="in-num">
+                        16
+                      </span>
+
+                    </span>
+                  </div>
+                </div>
+                <div class="type02-slide-item swiper-slide">
+                  <div class="type02-slide-item__img">
+                    <img src="../assets/img/mission-item04.png" alt="">
+                  </div>
+                  <div class="cm-desc-box">
+                    <span class="cm-desc-box__img">
+                      <img src="../assets/img/people-defult13.svg" alt="">
+                    </span>
+                    <span class="cm-desc-box__name">
+                      허니독
+                    </span>
+                    <span class="cm-sel">
+                      <span class="in-icon">◀ </span>허니독
+                    </span>
+                  </div>
+                  <div class="cm-desc-txt">
+                    최강여스 롤대회 개최
+                  </div>
+                  <div class="cm-desc-bot-box">
+                    <span class="cm-desc-bot-box__price">21,419</span>
+                    <span class="cm-desc-bot-box__icon">
+                      <img src="../assets/img/desc-icn.svg" alt="">
+                    </span>
+                    <span class="cm-desc-bot-box__txt">장전 중</span>
+                    <span class="cm-desc-bot-box__num">
+                      <span class="in-img">
+                        <img src="../assets/img/desc-bot-num.svg" alt="">
+                      </span>
+                      <span class="in-num">
+                        26
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <div class="type02-slide-item swiper-slide">
+                  <div class="type02-slide-item__img">
+                    <img src="../assets/img/mission-item05.png" alt="">
+                  </div>
+                  <div class="cm-desc-box">
+                    <span class="cm-desc-box__img">
+                      <img src="../assets/img/people-defult14.svg" alt="">
+                    </span>
+                    <span class="cm-desc-box__name">
+                      이유란
+                    </span>
+                    <span class="cm-sel">
+                      <span class="in-icon">◀ </span> 유잼도시
+                    </span>
+                  </div>
+                  <div class="cm-desc-txt">
+                    유잼도시 충정도로 오세유
+                  </div>
+                  <div class="cm-desc-bot-box">
+                    <span class="cm-desc-bot-box__price">1,531</span>
+                    <span class="cm-desc-bot-box__icon">
+                      <img src="../assets/img/desc-icn.svg" alt="">
+                    </span>
+                    <span class="cm-desc-bot-box__txt">장전 중</span>
+                    <span class="cm-desc-bot-box__num">
+                      <span class="in-img">
+                        <img src="../assets/img/desc-bot-num.svg" alt="">
+                      </span>
+                      <span class="in-num">
+                        6
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <div class="type02-slide-item swiper-slide">
+                  <div class="type02-slide-item__img">
+                    <img src="../assets/img/mission-item06.png" alt="">
+                  </div>
+                  <div class="cm-desc-box">
+                    <span class="cm-desc-box__img">
+                      <img src="../assets/img/people-defult15.svg" alt="">
+                    </span>
+                    <span class="cm-desc-box__name">
+                      따찌님
+                    </span>
+                    <span class="cm-sel">
+                      <span class="in-icon">◀ </span>이두박근
+                    </span>
+                  </div>
+                  <div class="cm-desc-txt">
+                    군복입고 롯데리아에서 밀리터리 <br>
+                    버거 주문하기
+                  </div>
+                  <div class="cm-desc-bot-box">
+                    <span class="cm-desc-bot-box__price">1,005</span>
+                    <span class="cm-desc-bot-box__icon">
+                      <img src="../assets/img/desc-icn.svg" alt="">
+                    </span>
+                    <span class="cm-desc-bot-box__txt">장전 중</span>
+                    <span class="cm-desc-bot-box__num">
+                      <span class="in-img">
+                        <img src="../assets/img/desc-bot-num.svg" alt="">
+                      </span>
+                      <span class="in-num">
+                        7
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <div class="type02-slide-item swiper-slide">
+                  <div class="type02-slide-item__img">
+                    <img src="../assets/img/mission-item07.png" alt="">
+                  </div>
+                  <div class="cm-desc-box">
+                    <span class="cm-desc-box__img">
+                      <img src="../assets/img/people-defult16.svg" alt="">
+                    </span>
+                    <span class="cm-desc-box__name">
+                      알피ASMR
+                    </span>
+                    <span class="cm-sel">
+                      <span class="in-icon">◀ </span>불곰
+                    </span>
+                  </div>
+                  <div class="cm-desc-txt">
+                    추석특집) 고향가는 버스에서 <br>
+                    전남친이 옆자리에?
+                  </div>
+                  <div class="cm-desc-bot-box">
+                    <span class="cm-desc-bot-box__price">450</span>
+                    <span class="cm-desc-bot-box__icon">
+                      <img src="../assets/img/desc-icn.svg" alt="">
+                    </span>
+                    <span class="cm-desc-bot-box__txt">장전 중</span>
+                    <span class="cm-desc-bot-box__num">
+                      <span class="in-img">
+                        <img src="../assets/img/desc-bot-num.svg" alt="">
+                      </span>
+                      <span class="in-num">
+                        3
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <div class="type02-slide-item swiper-slide">
+                  <div class="type02-slide-item__img">
+                    <img src="../assets/img/mission-item08.png" alt="">
+                  </div>
+                  <div class="cm-desc-box">
+                    <span class="cm-desc-box__img">
+                      <img src="../assets/img/people-defult17.svg" alt="">
+                    </span>
+                    <span class="cm-desc-box__name">
+                      똘킹
+                    </span>
+                    <span class="cm-sel">
+                      <span class="in-icon">◀ </span>오로지뉴메타
+                    </span>
+                  </div>
+                  <div class="cm-desc-txt">
+                    뉴메타 시참대회
+                  </div>
+                  <div class="cm-desc-bot-box">
+                    <span class="cm-desc-bot-box__price">1,930</span>
+                    <span class="cm-desc-bot-box__icon">
+                      <img src="../assets/img/desc-icn.svg" alt="">
+                    </span>
+                    <span class="cm-desc-bot-box__txt">장전 중</span>
+                    <span class="cm-desc-bot-box__num">
+                      <span class="in-img">
+                        <img src="../assets/img/desc-bot-num.svg" alt="">
+                      </span>
+                      <span class="in-num">
+                        5
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <div class="type02-slide-item swiper-slide">
+                  <div class="type02-slide-item__img">
+                    <img src="../assets/img/mission-item09.png" alt="">
+                  </div>
+                  <div class="cm-desc-box">
+                    <span class="cm-desc-box__img">
+                      <img src="../assets/img/people-defult16.svg" alt="">
+                    </span>
+                    <span class="cm-desc-box__name">
+                      이유란
+                    </span>
+                    <span class="cm-sel">
+                      <span class="in-icon">◀ </span>권오영
+                    </span>
+                  </div>
+                  <div class="cm-desc-txt">
+                    볼빨간 사춘기 노래 메들리~
+                  </div>
+                  <div class="cm-desc-bot-box">
+                    <span class="cm-desc-bot-box__price">1,300</span>
+                    <span class="cm-desc-bot-box__icon">
+                      <img src="../assets/img/desc-icn.svg" alt="">
+                    </span>
+                    <span class="cm-desc-bot-box__txt">장전 중</span>
+                    <span class="cm-desc-bot-box__num">
+                      <span class="in-img">
+                        <img src="../assets/img/desc-bot-num.svg" alt="">
+                      </span>
+                      <span class="in-num">
+                        3
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 네비게이션 -->
+            <div class="swiper-button-next">
+              <button type="button" class="btn swiper-btn-next swiper-mis-button-next"></button>
+            </div>
+            <!-- 다음 버튼 (오른쪽에 있는 버튼) -->
+            <div class="swiper-button-prev">
+              <button type="button" class="btn swiper-btn-prev swiper-mis-button-prev"></button>
+            </div><!-- 이전 버튼 -->
+
+            <script>
+              new Swiper('.mission-slide', {
+                loop: true,
+                slidesPerView: 3,
+                spaceBetween: 12,
+                navigation: { // 네비게이션
+                  nextEl: '.swiper-mis-button-next', // 다음 버튼 클래스명
+                  prevEl: '.swiper-mis-button-prev', // 이번 버튼 클래스명
+                },
+                breakpoints: {
+                  900: {
+                    slidesPerView: 2,
+                  },
+                  600: {
+                    slidesPerView: 1.6,
+                  }
+                }
+              });
+            </script>
+          </div>
+        </div>
+
+        <!-- 후기 -->
+        <div class="review">
+          <div class="inner">
+
+            <!-- 타이틀 -->
+            <div class="cm-tilte-wrap flex-between">
+              <div class="cm-gra-txt">팬심 리얼후기</div>
+            </div>
+
+            <!-- 리뷰 정보 -->
+            <div class="review-info">
+              <div class="review-info__list">
+                <div class="review-info__item">
+                  <div class="review-info__item-left">
+                    <!-- TODO : W150 H150 -->
+                    <div class="review-info__item-img">
+                      <img src="../assets/img/review01.svg" alt="">
+                      <span class="review-info__item-txt">
+                        <span class="is-bold">위칭</span> 님
+                      </span>
+                    </div>
+                  </div>
+                  <div class="review-info__item-right">
+                    <div class="review-info__item-right-txt">
+                      맨날 생방송에 와주시는 팬들께 역조공하고 싶었는데 <br class="is-mo-hide">
+                      절차가 복잡해서 망설이던 중 <br>
+                      <span class="cm-gra-sm">역조공 기능으로 팬 10분에게 선물보냈어요!</span> <br class="is-mo-hide">
+                      팬분들이 좋아해주셔서 기뻤습니다
+                    </div>
+                  </div>
+                </div>
+                <div class="review-info__item">
+                  <div class="review-info__item-left">
+                    <!-- TODO : W150 H150 -->
+                    <div class="review-info__item-img">
+                      <img src="../assets/img/review02.svg" alt="">
+                      <span class="review-info__item-txt">
+                        <span class="is-bold">따찌</span> 님
+                      </span>
+                    </div>
+                  </div>
+                  <div class="review-info__item-right">
+                    <div class="review-info__item-right-txt">
+                      제 생일에 팬분이 날짜를 맞춰 <span class="cm-gra-sm">케이크와</span> <br class="is-mo-hide">
+                      <span class="cm-gra-sm">꽃다발 선물을 주셨는데</span> 정말 감동 줄줄 ㅜ_ㅜ <br class="is-mo-hide">
+                      기분 좋은 생일이 될 수 있었어용!
+                    </div>
+                  </div>
+                </div>
+                <div class="review-info__item">
+                  <div class="review-info__item-left">
+                    <!-- TODO : W150 H150 -->
+                    <div class="review-info__item-img">
+                      <img src="../assets/img/review03.svg" alt="">
+                      <span class="review-info__item-txt">
+                        <span class="is-bold">이시아</span> 님
+                      </span>
+                    </div>
+                  </div>
+                  <div class="review-info__item-right">
+                    <div class="review-info__item-right-txt">
+                      팬들이 팬미팅을 이만큼이나 원하는 줄 <br class="is-mo-hide">
+                      미션 걸린 금액이랑 좋아요 보고 알았네요 ㅋㅋ <br class="is-mo-hide">
+                      <span class="cm-gra-sm">팬미팅 비용도 조금</span> 절감 할 수 있었고 <br class="is-mo-hide">
+                      재미있었습니다 ㅋㅋ
+                    </div>
+                  </div>
+                </div>
+                <div class="review-info__item">
+                  <div class="review-info__item-left">
+                    <!-- TODO : W150 H150 -->
+                    <div class="review-info__item-img">
+                      <img src="../assets/img/review04.svg" alt="">
+                      <span class="review-info__item-txt">
+                        <span class="is-bold">람언니</span> 님
+                      </span>
+                    </div>
+                  </div>
+                  <div class="review-info__item-right">
+                    <div class="review-info__item-right-txt">
+                      굿즈 제작 하고 싶었는데 팬들이 막상 안사주면 <br class="is-mo-hide">
+                      어떡할까 고민이 많았는데 <br class="is-mo-hide">
+                      <span class="cm-gra-sm">셀프 미션을 걸어서 후원금을 사전에 모집</span> 할 수 <br class="is-mo-hide">
+                      있어서 정말 다행이었습니다 :)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="main-link-btn">
+          <div class="main-link-btn__title is-hans">가자, 팬심하러</div>
+          <btutton type="button" class="btn cm-link-btn">지금 소통하기</btutton>
+        </div>
+
+
+      </div>
+
+
+
+      <!-- END page -->
+
+      <footer class="footer">
+        <div class="inner">
+          <div class="footer-info">
+            <div class="footer-info__txt">
+              물류센터 : 서울시 마포구 동교로 39길 4-13 3층 <br>
+              고객센터 : 0502-360-1253 (운영시간 월~금 10시~19시)
+            </div>
+            <div class="footer-info__util">
+              <a href="#">이용약관</a>
+              <a href="#">개인정보취급방침</a>
+              <a href="#">이메일무단수집거부</a>
+              <a href="#">책임한계와법적고지</a>
+            </div>
+            <div class="footer-info__txt">
+              Copyright ⓒ프로마음전달러, 팬심 All rights reserved
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <script src="../assets/js/custom/ui.js"></script>
+</body>
+
+</html>

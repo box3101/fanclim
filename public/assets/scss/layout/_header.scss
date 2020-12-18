@@ -1,0 +1,80 @@
+/* =================== header =================== */
+.header {
+  width: 100%;
+  background: #221714;
+
+  .inner {
+    position: relative;
+    height: 4.5rem;
+
+    > * {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  &__util-pos {
+    right: 19.6875rem;
+  }
+}
+
+/* =================== logo =================== */
+.logo {
+  position: absolute;
+  top: 52% !important;
+}
+
+.gnb {
+  position: absolute;
+  left: 9.375rem;
+  display: flex;
+
+  &__list {
+    margin-right: 2.375rem;
+  }
+
+  &__item {
+    display: inline-block;
+    font-size: 1rem;
+    color: #fff;
+  }
+}
+
+.util {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 0;
+
+  &__list {
+    margin-right: 2.5rem;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+  &__item {
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 1rem;
+    color: #fff;
+
+    &.is-active {
+      padding: 0.625rem 1.3125rem;
+      background: #ffed43;
+      color: #000;
+      font-weight: 600;
+      border-radius: 1.5625rem;
+      transition: all 0.4s;
+
+      &:hover {
+        background: #fff;
+        color: #000;
+      }
+    }
+  }
+}
+.tab-menu__item {
+  width: auto !important;
+}

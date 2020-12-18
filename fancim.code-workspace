@@ -1,0 +1,32 @@
+{
+	"folders": [{
+	  "path": "."
+	}],
+	"settings": {
+	  "eslint.format.enable": true,
+	  "eslint.lintTask.enable": true,
+	  "editor.formatOnSave": true,
+	  "[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	  },
+	  "liveSassCompile.settings.formats": [{
+		"format": "compact",
+		"extensionName": ".css",
+		"savePath": "/public/assets/css/custom"
+	  }],
+	  // map 생성 여부
+	  "liveSassCompile.settings.generateMap": false,
+	  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+	  // 크로스브라우징
+	  "liveSassCompile.settings.autoprefix": [
+		"> 1%",
+		"last 2 versions"
+	  ],
+	  "liveServer.settings.port": 5502,
+	  // 모든 .scss 파일
+	  // "liveSassCompile.settings.includeItems": [
+	  //   "*.scss"
+	  // ],
+	  // "liveServer.settings.port": 5501
+	}
+  }
